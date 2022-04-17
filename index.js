@@ -16,16 +16,16 @@ btn.addEventListener("click", function(e){
     result.innerHTML = `<h4>Your BMI is: ${math}</h4>`
    
     if(math<18.5){
-        advice.innerHTML = `<h4> You are underweight</h4>`     
+        advice.innerHTML = `<h4> You are underweight <i class="fa-solid fa-face-frown"></i></h4>`     
     }
     else if(math>=18.5 && math<=24.9){
-        advice.innerHTML = `<h4>You are Healthy</h4>`
+        advice.innerHTML = `<h4>You are Healthy <i class="fa-solid fa-face-smile-beam"></i></h4>`
     }
     else if(math>=25 && math<=29.9){
-        advice.innerHTML = `<h4>You are Overweight</h4>`
+        advice.innerHTML = `<h4>You are Overweight <i class="fa-solid fa-face-frown-open"></i></h4>`
     }
     else if(math>=30){
-        advice.innerHTML = `<h4>You are Obese</h4>`
+        advice.innerHTML = `<h4>You are Obese <i class="fa-solid fa-face-sad-tear"></i></h4>`
     }
     
 
