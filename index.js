@@ -16,7 +16,7 @@ btn.addEventListener("click", function(e){
     result.innerHTML = `<h4>Your BMI is: ${math}</h4>`
    
     if(math<18.5){
-        advice.innerHTML = `<h4> You are underweight</h4>`
+        advice.innerHTML = `<h4> You are underweight</h4>`     
     }
     else if(math>=18.5 && math<=24.9){
         advice.innerHTML = `<h4>You are Healthy</h4>`
